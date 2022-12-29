@@ -19,6 +19,7 @@ import Dashboard from './Pages/Dashboard/Dashboard';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import CreatePost from './Pages/CreatePost/CreatePost';
 
 function App() {
   const [user, setUser] = useState(undefined)
@@ -54,6 +55,10 @@ function App() {
               <Route 
                 path='/register' 
                 element={!user ? <Register /> : <Navigate to="/" />}
+              />
+              <Route 
+                path='/posts/create' 
+                element={user ? <CreatePost /> : <Navigate to="/login" />}
               />
               <Route 
                 path='/dashboard' 

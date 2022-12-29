@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import {getFirestore} from 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD0Ou_ApmwaO3hZ1kz6XF3ftkCJaVkEM9Y",
+  apiKey: "AIzaSyDQIxXKvBzsQCFpjSkRAPfZih9RWOHNJ7M",
   authDomain: "mini-blog-f58b6.firebaseapp.com",
   projectId: "mini-blog-f58b6",
   storageBucket: "mini-blog-f58b6.appspot.com",

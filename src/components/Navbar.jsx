@@ -32,6 +32,11 @@ export default function Navbar() {
         }
         {user && 
           <li>
+            <NavLink to="/posts/create">Novo Post</NavLink>
+          </li>
+        }
+        {user && 
+          <li>
             <NavLink to="/dashboard">Dashboard</NavLink>
           </li>
         }
